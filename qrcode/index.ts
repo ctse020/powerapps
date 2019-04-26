@@ -65,17 +65,6 @@ export class MyQRCode implements ComponentFramework.StandardControl<IInputs, IOu
 	 */
 	public updateView(context: ComponentFramework.Context<IInputs>): void
 	{
-		// Add code to update control view
-
-
-
-        //debugger;
-
-        // CRM attributes bound to the control properties. 
-        //var firstnameAttr = this._context.parameters.firstname.attributes.LogicalName;
-
-        // setting CRM field values here. 
-        //Xrm.Page.getAttribute(crmFileNameAttr).setValue(this._context.parameters.FileName.formatted);
 
 	}
 
