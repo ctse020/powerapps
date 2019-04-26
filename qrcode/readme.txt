@@ -1,3 +1,5 @@
+*This sample control contains an input, after changing the value in the input field it shows the QRCode image
+
 1) Create a new PowerApp project
 https://docs.microsoft.com/en-us/powerapps/developer/component-framework/implementing-controls-using-typescript
 
