@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="Ctse.PowerApps" constructor="Test1" version="0.0.1" display-name-key="Test1_Display_Key" description-key="Test1_Desc_Key" control-type="standard">
+  <control namespace="Ctse.PowerApps" constructor="MyQRCode" version="0.0.1" display-name-key="MyQRCode_Display_Key" description-key="MyQRCode_Desc_Key" control-type="standard">
     <property name="barcodetext" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
     <resources>
       <code path="index.ts" order="1"/>
