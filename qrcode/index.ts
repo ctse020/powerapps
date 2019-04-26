@@ -8,8 +8,7 @@ export class MyQRCode implements ComponentFramework.StandardControl<IInputs, IOu
 
     /** variable for properties */ 
     private _barcodetext: string; 
-    private _barcodeimageurl: string; 
-
+    
     /** event variables */
     private _barcodetextChanged: EventListenerOrEventListenerObject;
 
