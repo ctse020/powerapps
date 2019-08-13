@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Ctse" constructor="FullNameControl" version="0.0.2" display-name-key="Ctse.FullNameControl" description-key="Ctse FullNameControl" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="lastname" display-name-key="LastName" description-key="Last name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="firstname" display-name-key="FirstName" description-key="First name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="middlename" display-name-key="MiddleName" description-key="Middle name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="fullname" display-name-key="FullName" description-key="Full name" of-type="SingleLine.Text" usage="bound" required="true" />
+    <!-- 
+      Property node's of-type attribute can be of-type-group attribute. 
+      Example:
+      <type-group name="numbers">
+        <type>Whole.None</type>
+        <type>Currency</type>
+        <type>FP</type>
+        <type>Decimal</type> 
+      </type-group>
+      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
+    -->
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/FullNameControl.css" order="1" />
+      <resx path="strings/FullNameControl.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>
